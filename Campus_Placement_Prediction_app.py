@@ -1,7 +1,13 @@
 import streamlit as st
 import pandas as pd
 import pickle
-model = pickle.load(open('campus_placement.sav', 'rb'))
+import os
+
+script_directory = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(script_directory, 'campus_placement.sav')
+
+model = pickle.load(open(model_path, 'rb'))
+
 
 
 def predict_placement(input_data):
