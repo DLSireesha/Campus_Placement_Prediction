@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-model_path='C:/Users/hp/Desktop/python/campus_placement.pkl
+model_path='C:/Users/hp/Desktop/python/campus_placement.pkl'
 model = pickle.load(open(model_path, 'rb'))
 
 
