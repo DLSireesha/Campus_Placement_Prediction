@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-model = pickle.load(open('campus_placement (1).sav', 'rb'))
+model = pickle.load(open('campus_placement.sav', 'rb'))
 
 
 def predict_placement(input_data):
