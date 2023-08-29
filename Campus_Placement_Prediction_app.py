@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
-model=pickle.load(open('C:/Users/hp/Desktop/python/campus_placement.pkl','rb'))
+model = pickle.load(open('campus_placement.pkl', 'rb'))
+
 
 def predict_placement(input_data):
     # Process the input data and make predictions using your model
