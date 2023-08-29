@@ -1,11 +1,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import os
 
-script_directory = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(script_directory, 'C:/Users/hp/Desktop/python/campus_placement.sav')
-
+model_path='C:/Users/hp/Desktop/python/campus_placement.sav'
 model = pickle.load(open(model_path, 'rb'))
 
 
