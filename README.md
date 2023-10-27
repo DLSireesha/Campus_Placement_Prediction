@@ -103,7 +103,7 @@ Streamlit is a free and open-source framework to rapidly build and share beautif
 
 **Step 2**: Create a new Python script or module for Streamlit app. Import the necessary libraries, including Streamlit, and define the structure of your app.
 
-**Step 3**: Use Streamlit's API to design the user interface of theapp. Streamlit provides various components such as sliders, dropdowns, and buttons that you can use to create interactive elements for user input and display.
+**Step 3**: Use Streamlit's API to design the user interface of the app. Streamlit provides various components such as sliders, dropdowns, and buttons that you can use to create interactive elements for user input and display.
 
 **Step 4**: **Load the model**
 In Streamlit app, load the trained machine learning model that we want to deploy. Make sure to import any required dependencies and set up any preprocessing steps needed to prepare input data for the model.
